@@ -1,0 +1,9 @@
+.cardBordr {
+    border-color: #C98A40;
+}
+
+@media screen and (max-width: 575.98px) {
+  .containerRecipes{
+    width:90% !important ;
+  }
+}

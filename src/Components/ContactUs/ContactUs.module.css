@@ -1,0 +1,8 @@
+@media screen and (max-width: 991.98px) {
+    .changeWidthRowContact {
+        width: 90% !important;
+    }
+    .btnContact{
+        font-size: .8rem !important ;
+    }
+}

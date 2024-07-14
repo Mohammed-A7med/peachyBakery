@@ -1,0 +1,9 @@
+.bgTransition {
+    transition: all .5s;
+}
+
+@media screen and (max-width: 575.98px) {
+    .position-fixed {
+        position: static !important;
+    }
+}

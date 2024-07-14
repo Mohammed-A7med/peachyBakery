@@ -1,0 +1,41 @@
+.aboutImg {
+    margin-left: -140px;
+}
+
+@media screen and (max-width: 1037px) {
+    .aboutImg {
+        margin-left: -100px;
+    }
+    
+    .welcomAbout{
+        width: 100% !important;
+    }
+    .contantAbout{
+        width: 75% !important;
+    }
+}
+
+
+@media screen and (max-width: 820px) {
+    .aboutImg {
+        margin-left: -80px;
+    }
+    
+}
+
+
+@media screen and (max-width: 767.98px) {
+    .aboutImg {
+        margin-left: 0px;
+        width: 75% !important;
+        margin: auto;
+    }
+    .welcomAbout ,.contantAbout{
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .aboutBgCol{
+        background-color: #C98A40;
+    }
+}

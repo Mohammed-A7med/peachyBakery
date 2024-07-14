@@ -1,0 +1,65 @@
+/* -------------------- Home section -------------------- */
+.bgImg {
+    background-image: url('../../Imges/Mask\ Group.png');
+    background-position: center center;
+    background-size: contain;
+}
+
+.caption h1, .captionText {
+    font-size: 4.625rem;
+}
+
+.welcomeHome {
+    height: 83vh;
+}
+
+.imgBread {
+    margin-left: -26rem;
+}
+
+@media screen and (max-width: 991.98px) {
+    .imgBread {
+        margin-left: -15rem;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .imgBread {
+        display: none;
+    }
+
+    ;
+}
+
+@media screen and (max-width: 575.98px) {
+    .captionText {
+        font-size: 3.2rem;
+    }
+
+    .homeTel {
+        display: block;
+    }
+
+    .captionHome {
+        width: 75% !important;
+    }
+}
+
+
+/* -------------------- How we work section -------------------- */
+
+@media screen and (max-width: 991.98px) {
+    .contantWork{
+        justify-content: center !important;
+    }
+    .changeHWorkRow{
+        height: 100% !important;
+    }
+
+}
+
+@media screen and (max-width: 575.98px) {
+    .contantWork{
+        margin-top: 50px!important;
+    }
+}
